@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<ng-lottie (error)="error($event)" [styles]="styles" [options]="options"
+    (animationCreated)="animationCreated($event)"></ng-lottie>
+
+<button (click)="stop()">Stop</button>
+<button (click)="play()">Play</button>
+
+<router-outlet></router-outlet>
