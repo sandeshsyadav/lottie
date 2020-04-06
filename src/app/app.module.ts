@@ -5,6 +5,7 @@ import player from 'lottie-web';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LottieComponent } from './lottie-component/lottie-component.component';
 
 export function playerFactory() {
   return player;
@@ -12,7 +13,8 @@ export function playerFactory() {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LottieComponent
   ],
   imports: [
     BrowserModule,
